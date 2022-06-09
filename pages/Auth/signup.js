@@ -13,14 +13,14 @@ const Signup = () => {
         <link rel="icon" href="/wireways.png" />
       </Head>
       <div className={styles.container}>
-        <div className="flex flex-col items-center justify-center bg-gray-100">
+        <div className="h-screen flex flex-col items-center justify-center">
           {/* Header */}
           <div className="header">
-            <Image src={Logo} width={100} height={100} />
+            <Image src={Logo} width={200} height={200} />
             <Link href="/Auth/signin">
               <button
                 type="button"
-                className="inline-block px-4 py-2 primaryColor text-white font-medium text-xs rounded-full"
+                className="inline-block px-5 py-2 primaryColor text-white font-medium text-xs rounded-full"
               >
                 Sign in
               </button>
@@ -28,12 +28,12 @@ const Signup = () => {
           </div>
           {/* Header Ends */}
           <div className="mb-5">
-            <h2 className="font-bold text-center text-2xl">Get Started</h2>
-            <p className="text-sm">Create account for your business already</p>
+            <h2 className="font-bold text-center text-3xl">Get Started</h2>
+            <p className="text-xm">Create account for your business already</p>
           </div>
           {/* The form */}
           <form className="w-full max-w-lg">
-            <div className="flex flex-wrap -mx-3 mb-4">
+            <div className="flex flex-wrap -mx-3 mb-4 mt-5">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <input
                   className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
@@ -44,27 +44,27 @@ const Signup = () => {
               </div>
               <div className="w-full md:w-1/2 px-3">
                 <input
-                  className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4"
                   id="grid-last-name"
                   type="text"
                   placeholder="Last Name"
                 />
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 mb-4">
+            <div className="flex flex-wrap -mx-3 mb-4 mt-5">
               <div className="w-full px-3">
                 <input
-                  className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4"
                   id="grid-password"
                   type="text"
                   placeholder="Business Name"
                 />
               </div>
             </div>
-            <div className="flex flex-wrap -mx-3 mb-4">
+            <div className="flex flex-wrap -mx-3 mb-4 mt-4">
               <div className="w-full px-3">
                 <input
-                  className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4"
                   id="grid-password"
                   type="email"
                   placeholder="Email Address"

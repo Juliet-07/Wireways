@@ -36,7 +36,7 @@ const Signup = () => {
             <div className="flex flex-wrap -mx-3 mb-4 mt-5">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <input
-                  className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
+                  className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 focus:outline-none focus:bg-white focus:border-sky-500"
                   id="grid-first-name"
                   type="text"
                   placeholder="First Name"
@@ -44,7 +44,7 @@ const Signup = () => {
               </div>
               <div className="w-full md:w-1/2 px-3">
                 <input
-                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="grid-last-name"
                   type="text"
                   placeholder="Last Name"
@@ -54,7 +54,7 @@ const Signup = () => {
             <div className="flex flex-wrap -mx-3 mb-4 mt-5">
               <div className="w-full px-3">
                 <input
-                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="grid-password"
                   type="text"
                   placeholder="Business Name"
@@ -64,7 +64,7 @@ const Signup = () => {
             <div className="flex flex-wrap -mx-3 mb-4 mt-4">
               <div className="w-full px-3">
                 <input
-                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="grid-password"
                   type="email"
                   placeholder="Email Address"
@@ -74,7 +74,7 @@ const Signup = () => {
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <input
-                  class="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
+                  class="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 focus:outline-none focus:bg-white focus:border-sky-500"
                   id="grid-password"
                   type="tel"
                   placeholder="Phone Number"
@@ -84,7 +84,7 @@ const Signup = () => {
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full px-3">
                 <input
-                  className="appearance-none block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-sky-500"
+                  className="block w-full bg-white text-gray-700 border border-sky-500 rounded-full py-3 px-4 focus:outline-none focus:bg-white focus:border-sky-500"
                   id="grid-password"
                   type="password"
                   placeholder="Password"
@@ -95,7 +95,7 @@ const Signup = () => {
             <div className="flex flex-wrap -mx-3 mb-4">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <select
-                  className="form-select form-select-sm appearance-none block w-full bg-white bg-clip-padding bg-no-repeat text-gray-700 border border-sky-500 rounded-full py-2 px-4
+                  className="form-select form-select-sm block w-full bg-white bg-no-repeat text-gray-700 border border-sky-500 rounded-full py-2 px-4
                   transition ease-in-out m-0 focus:outline-none focus:bg-white focus:border-sky-500"
                   id="grid-first-name"
                   aria-label="form-select-sm example"
@@ -108,7 +108,7 @@ const Signup = () => {
               </div>
               <div className="w-full md:w-1/2 px-3">
                 <select
-                  className="form-select form-select-sm appearance-none block w-full bg-white bg-clip-padding bg-no-repeat text-gray-700 border border-sky-500 rounded-full py-2 px-4
+                  className="form-select form-select-sm block w-full bg-white bg-no-repeat text-gray-700 border border-sky-500 rounded-full py-2 px-4
                   transition ease-in-out m-0 focus:outline-none focus:bg-white focus:border-sky-500"
                   id="grid-first-name"
                   aria-label="form-select-sm example"
@@ -121,7 +121,7 @@ const Signup = () => {
                 </select>
               </div>
             </div>
-            <div className="flex -mx-3 mb-2 mt-4">
+            <div className="flex -mx-3 mb-2 mt-6">
               <div className="w-full px-3">
                 <input
                   class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-sky-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"

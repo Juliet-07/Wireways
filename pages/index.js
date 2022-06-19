@@ -8,7 +8,7 @@ const Splashscreen = () => {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <Link href={"/Auth/signup"}>
+        <Link href={"/auth/signup"}>
           <Image src={Logo} width={400} height={400} />
         </Link>
         <Loader />

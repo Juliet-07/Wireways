@@ -17,7 +17,7 @@ const Signup = () => {
           {/* Header */}
           <div className="header">
             <Image src={Logo} width={200} height={200} />
-            <Link href="/Auth/signin">
+            <Link href="/auth/signin">
               <button
                 type="button"
                 className="inline-block px-5 py-2 primaryColor text-white font-medium text-xs rounded-full"
